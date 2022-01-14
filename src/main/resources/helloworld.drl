@@ -4,3 +4,8 @@ rule "HelloWorld"
     when
         eval(true)
     then System.out.println("HelloWorld"); end
+
+rule "HelloNagi"
+    when
+        eval(true)
+    then System.out.println("Hello Nagi, Good morning"); end
